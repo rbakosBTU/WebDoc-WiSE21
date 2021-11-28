@@ -1,8 +1,8 @@
 # WebDoc-WiSE21
 ## Web Developers
 
-Rene Bakos / @rbakosBTU
+[Rene Bakos](https://github.com/rbakosBTU)
 
-Jessica Brummack / @jessicabrummack
+[Jessica Brummack](https://github.com/jessicabrummack)
 
 ## Business description
