@@ -9,7 +9,7 @@
 
 ### Domain
 limo.tours
-<img src="https://i.ibb.co/gvvXnht/limotours-domain.png" alt="limotours-domain" border="0">
+<img src="assignment-2a/Images/limotours_domain.png">
 
 ### Name
 Limotours
