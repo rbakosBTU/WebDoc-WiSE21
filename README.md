@@ -17,17 +17,17 @@ Limotours
 ### Locations and Contact
 Berlin <br/>
 Address: Berliner Freiheit 2, 10785 Berlin (Headquarter) <br/>
-Email: limotours@berlin.info <br/>
+Email: berlin@limo.tours <br/>
 Phone: 01742346677 <br/>
 
 Hamburg <br/>
 Address: Neuer Wall 80, 20354 Hamburg <br/>
-Email: limotours@hamburg.info <br/>
+Email: hamburg@limo.tours <br/>
 Phone: 01742346688 <br/>
 
 Dresden <br/>
 Address: Zellescher Weg 21, 01217 Dresden <br/>
-Email: limotours@dresden.info <br/>
+Email: dresden@limo.tours <br/>
 Phone: 01742346699 
 
 ### About
