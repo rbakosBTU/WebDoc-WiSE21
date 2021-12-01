@@ -36,7 +36,7 @@ We are located in Berlin, Hamburg and Dresden and each city contains an unique t
 Our tours are perfect for various events of all kinds, for example memorable birthday partys, bachelor partys or even weddings.
 
 ### Products
-We have created 3 different tours: one in Berlin, one in Dresden and one in Hamburg. <br/>
+We have created 3 different tours: one in Berlin, one in Dresden and one in Hamburg. These tours are already predefined and overall komplete. <br/>
 But you can also rent our limousines for individual tours, where you can decide on your own, where the tour starts and ends. 
 This can be especially used for weddings or transfer trips, for example.
 
