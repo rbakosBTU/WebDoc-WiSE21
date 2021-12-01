@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productlisting title="Our Car Pool">
+    <product>
+        <name>BMW X6 Stretchlimousine</name>
+        <description>Elegant on the outside, disco on the inside!</description>
+        <cost>289€</cost>
+    </product>
+    <product>
+        <name>Hummer H2 Stretchlimousine</name>
+        <description>The perfect party bus!</description>
+        <cost>349€</cost>
+    </product>
+    <product>
+        <name>Chrysler 300C Stretchlimousine</name>
+        <description>For the extravagant girls night out!</description>
+        <cost>299€</cost>
+    </product>
+    <product>
+        <name>Excalibur Stretchlimousine</name>
+        <description>Old but definitely gold!</description>
+        <cost>319€</cost>
+    </product>
+    <product>
+        <name>Rolls Royce Phantom Stretchlimousine</name>
+        <description>The guaranteed eye-catcher!</description>
+        <cost>299€</cost>
+    </product>
+</productlisting>
