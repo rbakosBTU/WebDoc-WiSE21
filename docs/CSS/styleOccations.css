@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  padding-bottom: 4rem;
+}
+
+.content ul {
+  font-size: 25px;
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+
+.content ul li {
+  font-size: 20px;
+}
+
+#imgdeco {
+  width: 60%;
+  padding-top: 3rem;
+}
+
+p {
+  display: block;
+}

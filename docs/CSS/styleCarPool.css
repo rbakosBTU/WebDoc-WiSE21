@@ -1,0 +1,24 @@
+.cars {
+  display: flex;
+}
+
+.cars p {
+  margin: 50px 0px 0px 40px;
+}
+
+.cars div img {
+  position: static;
+  width: 400px;
+  height: 200px;
+  margin-right: 2px;
+  padding-bottom: 36px;
+}
+
+h2 {
+  padding-top: 2rem;
+}
+
+#parahead {
+  text-align: center;
+  padding-bottom: 1rem;
+}
