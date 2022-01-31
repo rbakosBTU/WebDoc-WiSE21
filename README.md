@@ -82,7 +82,9 @@ Matter of concern: <br/>
 For her upcoming vintage-themed wedding she is looking for a beatiful oldtimer car, 
 which can drive her as a bride to the altar and also all her guests to the after party.
 
-
+## Contribution of developers of Websites:
+- Minh Duc Bui (writing HTML codes)
+- Andreas Eberle (responsibility of CSS files)
 
 
 
