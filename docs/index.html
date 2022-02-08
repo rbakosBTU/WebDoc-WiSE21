@@ -1,67 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta   name="description"
+            content="This is homepage of Limotours, which provides general information and introduction about a company organizing city tour with limosines.">  
     <link rel="stylesheet" href="CSS/styleHome.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind Siliguri">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind%20Siliguri">
     <title>Welcome to Limotours</title>
 </head>
-<body style="background-color:#373636;">
-    <div>
-        <img id="logotop" src="Images/logo_transparent_top.png" alt="Logo of Limotours"/>
-        <nav>
+<body>
+    <header>
+        <div>
+            <img id="logotop" src="Images/logo_transparent_top.png" alt="Logo of Limotours" width="1000" height="171">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="locations.html">Locations</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="car_pool.html">Car Pool</a></li>
-                <li><a href="occations.html">Occations</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.html"><h2>Home</h2></a></li>
+                <li><a href="locations.html"><h2>Locations</h2></a></li>
+                <li><a href="products.html"><h2>Products</h2></a></li>
+                <li><a href="car_pool.html"><h2>Car Pool</h2></a></li>
+                <li><a href="occations.html"><h2>Occations</h2></a></li>
+                <li><a href="about.html"><h2>About</h2></a></li>
             </ul>
+        </div>
+        <nav class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs__item">Home</a>
         </nav>
-    </div>
-    
-    <h2>Welcome to Limotours – the specialest experience of your life!</h3>
+    </header>
+    <main>
+        <h1>Welcome to Limotours – the specialest experience of your life!</h1>
 
-    <div>
-        <p id="text">
-            We are offering you some of the most luxury limousines, including a great tour and a personal chauffeur in Berlin, Hamburg and Dresden.<br/>
-            Take a look at our amazing tours, which are perfect for diverse memorable events!
-        </p>
-    </div>
+        <div>
+            <p id="text">
+                We are offering you some of the most luxury limousines, including a great tour and a personal chauffeur in Berlin, Hamburg and Dresden.<br/>
+                Take a look at our amazing tours, which are perfect for diverse memorable events!
+            </p>
+        </div>
 
-    <h3>Limousines for any ocassion</h4>
-    <div class="content">        
-        <div>
+        <h2>Limousines for any ocassion</h2>
+        <div class="content">        
             <div>
-                <img id="image1" src="Images/limo4.jpg" alt="Image of Excalibour Stretchlimousine"/>
-                <p id="des1">Excalibour Stretchlimousine</p>
+                <div>
+                    <img id="image1" src="Images/limo4.jpg" alt="Image of Excalibour Stretchlimousine" width="800" height="500">
+                    <p id="des1">Excalibour Stretchlimousine</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img id="image2" src="Images/limo3.jpg" alt="Image of Chrysler 300C Stretchlimousine" width="800" height="500">
+                    <p id="des2">Chrysler 300C Stretchlimousine</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img id="image3" src="Images/limo1.jpg" alt="Image of BMW X6 Stretchlimousine" width="800" height="500">
+                    <p id="des3">BMW X6 Stretchlimousine</p>
+                </div>
             </div>
         </div>
-        <div>
-            <div>
-                <img id="image2" src="Images/limo3.jpg" alt="Image of Chrysler 300C Stretchlimousine"/>
-                <p id="des2">Chrysler 300C Stretchlimousine</p>
-            </div>
+        <div class="container">
+            <iframe src="https://www.youtube.com/embed/p6IlV5wY5vI" title="YouTube video player" allowfullscreen></iframe>
         </div>
-        <div>
-            <div>
-                <img id="image3" src="Images/limo1.jpg" alt="Image of BMW X6 Stretchlimousine"/>
-                <p id="des3">BMW X6 Stretchlimousine</p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/p6IlV5wY5vI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    </main>
+    <footer>
+        <div><img src="Images/logo_small.png" alt="Small logo of page" width="200" height="200"></div>
+        <div class="foot_slogan">Your joy starts here with Limotours</div>
+        <div class="foot_credit"><a href="credits.html">Credits</a></div>
+        <div id="dev_roles">Accessibility by Duc Bui, SEO by Andreas Eberle</div>
+    </footer>
 </body>
-<footer>
-    <div><img src="Images/logo_small.png" alt="Small logo of page"></div>
-    <div class="foot_slogan">Your joy starts here with Limotours</div>
-    <div class="foot_credit"><a href="credits.html">Credits</a></div>
-</footer>
 </html>

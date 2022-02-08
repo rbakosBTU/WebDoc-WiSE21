@@ -1,41 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta   name="description"
+            content="A description of a limotour in Hamburg city of Germany about tour's time plan, places and locations to visit in Hamburg.">
     <link rel="stylesheet" href="CSS/stylePlaces.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind Siliguri">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind%20Siliguri">
     <title>Tour in Hamburg</title>
 </head>
-<body style="background-color:#373636;">
-    <div>
-        <img id="logotop" src="Images/logo_transparent_top.png" alt="Logo of Limotours"/>
-        <nav>
+<body>
+    <header>
+        <div>
+            <img id="logotop" src="Images/logo_transparent_top.png" alt="Logo of Limotours" width="1000" height="171">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="locations.html">Locations</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="car_pool.html">Car Pool</a></li>
-                <li><a href="occations.html">Occations</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.html"><h2>Home</h2></a></li>
+                <li><a href="locations.html"><h2>Locations</h2></a></li>
+                <li><a href="products.html"><h2>Products</h2></a></li>
+                <li><a href="car_pool.html"><h2>Car Pool</h2></a></li>
+                <li><a href="occations.html"><h2>Occations</h2></a></li>
+                <li><a href="about.html"><h2>About</h2></a></li>
             </ul>
+        </div>
+        <nav class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs__item">Home</a>
+            <a href="products.html" class="breadcrumbs__item">Products</a>
+            <a href="hamburg_tour.html" class="breadcrumbs__item">Hamburg</a>
         </nav>
-    </div>
-    <div><h2>HAMBURG TOUR</h2></div>
-    <div>
-        <p>Your chauffeur will pick you up at the central train station. From there, he leads you to some of the most famous attractions of Hamburg, where all eyes will be drawn to you.</p>
-        <p>First of all our tour leads you through Hamburg district St. Georg and then straight over the bridge, which separates the Binnen- and Außenalster. After this, you will drive past the Planten un Bloomen straight to the St. Michaelis Church. The tour goes on through the famous Speicherstadt, right to the Elbphilharmonie. This will also be our photo stop, where you will be able to take some beautiful pictures.</p>
-        <p>Now our tour leads you through the Hafen City and consequently along the Elbe, where you can also get a look at the Port of Hamburg. As our tour goes on, you will drive through the Old Town and the Sternschanze before we get to the St. Nikolai Church.</p>
-        <p>Further, your chauffeur will drive you right under the Landungsbrücken into the most popular district of Hamburg – St. Pauli and of course through the famous Reeperbahn. You will be dropped at the Beatles-Place, from where you can pick one of the many clubs and bars you will find there to celebrate until tomorrow!</p>
-    </div>
-    <img id="img" src="Images/picture_hamburg.jpg" alt="Picture of tour Hamburg taken inside a limousine">
+    </header>
+    <main>
+        <div><h1>HAMBURG TOUR</h1></div>
+        <div>
+            <p>Your chauffeur will pick you up at the central train station. From there, he leads you to some of the most famous attractions of Hamburg, where all eyes will be drawn to you.</p>
+            <p>First of all our tour leads you through Hamburg district St. Georg and then straight over the bridge, which separates the Binnen- and Außenalster. After this, you will drive past the Planten un Bloomen straight to the St. Michaelis Church. The tour goes on through the famous Speicherstadt, right to the Elbphilharmonie. This will also be our photo stop, where you will be able to take some beautiful pictures.</p>
+            <p>Now our tour leads you through the Hafen City and consequently along the Elbe, where you can also get a look at the Port of Hamburg. As our tour goes on, you will drive through the Old Town and the Sternschanze before we get to the St. Nikolai Church.</p>
+            <p>Further, your chauffeur will drive you right under the Landungsbrücken into the most popular district of Hamburg – St. Pauli and of course through the famous Reeperbahn. You will be dropped at the Beatles-Place, from where you can pick one of the many clubs and bars you will find there to celebrate until tomorrow!</p>
+        </div>
+        <img class="image" src="Images/picture_hamburg.jpg" alt="Picture of tour Hamburg taken inside a limousine">
+    </main>
+    <footer>
+        <div><img src="Images/logo_small.png" alt="Small logo of page" width="200" height="200"></div>
+        <div class="foot_slogan">Your joy starts here with Limotours</div>
+        <div class="foot_credit"><a href="credits.html">Credits</a></div>
+    </footer>
 </body>
-<footer>
-    <div><img src="Images/logo_small.png" alt="Small logo of page"></div>
-    <div class="foot_slogan">Your joy starts here with Limotours</div>
-    <div class="foot_credit"><a href="credits.html">Credits</a></div>
-</footer>
+
 </html>

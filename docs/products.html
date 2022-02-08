@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta   name="description"
+            content="Choose destinations in Berlin, Dresden, Hamburg or by your own choice to have a fantastic tours with limousines.">
     <link rel="stylesheet" href="CSS/styleProducts.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind Siliguri">
-    <title>Products</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind%20Siliguri">
+    <title>Products of Limotours</title>
 </head>
-<body style="background-color:#373636;">
-    <div>
-        <img id="logotop" src="Images/logo_transparent_top.png" alt="Logo of Limotours"/>
-        <nav>
+<body>
+    <header>
+        <div>
+            <img id="logotop" src="Images/logo_transparent_top.png" alt="Logo of Limotours" width="1000" height="171">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="locations.html">Locations</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="car_pool.html">Car Pool</a></li>
-                <li><a href="occations.html">Occations</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.html"><h2>Home</h2></a></li>
+                <li><a href="locations.html"><h2>Locations</h2></a></li>
+                <li><a href="products.html"><h2>Products</h2></a></li>
+                <li><a href="car_pool.html"><h2>Car Pool</h2></a></li>
+                <li><a href="occations.html"><h2>Occations</h2></a></li>
+                <li><a href="about.html"><h2>About</h2></a></li>
             </ul>
+        </div>
+        <nav class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs__item">Home</a>
+            <a href="products.html" class="breadcrumbs__item">Products</a>
         </nav>
-    </div>
-    <div><h2>Let's choose fantastic tours for your dreams!</h2></div>
-    <p>Each tour will take round about 2 hours. The price will depend on which car you chose. On our Carpool page, you will see the default tour price for every of our cars. No matter, if you book a tour in Berlin, Hamburg or Dresden – the price will always be the same for each city. But of course, the price can vary if you have some individual wishes.</p>
-    <div class="choice">
-        <a href="berlin_tour.html"><img src="Images/berlin.png" alt="Berlin"/></a><br/>
-        <a href="hamburg_tour.html"><img src="Images/hamburg.png" alt="Hamburg"/></a><br/>
-        <a href="dresden_tour.html"><img src="Images/dresden.png" alt="Dresden"/></a><br/>
-        <a href="individual_tour.html"><img src="Images/individual.png" alt="Individual"/></a>
-    </div>
+    </header>
+    <main>
+        <div><h1>Let's choose fantastic tours for your dreams!</h1></div>
+        <p>Each tour will take round about 2 hours. The price will depend on which car you chose. On our Carpool page, you will see the default tour price for every of our cars. No matter, if you book a tour in Berlin, Hamburg or Dresden – the price will always be the same for each city. But of course, the price can vary if you have some individual wishes.</p>
+        <div class="choice">
+            <a href="berlin_tour.html"><img src="Images/berlin.png" alt="Berlin"/></a><br/>
+            <a href="hamburg_tour.html"><img src="Images/hamburg.png" alt="Hamburg"/></a><br/>
+            <a href="dresden_tour.html"><img src="Images/dresden.png" alt="Dresden"/></a><br/>
+            <a href="individual_tour.html"><img src="Images/individual.png" alt="Individual"/></a>
+        </div>
+    </main>
+    <footer>
+        <div><img src="Images/logo_small.png" alt="Small logo of page" width="200" height="200"></div>
+        <div class="foot_slogan">Your joy starts here with Limotours</div>
+        <div class="foot_credit"><a href="credits.html">Credits</a></div>
+    </footer>
 </body>
-<footer>
-    <div><img src="Images/logo_small.png" alt="Small logo of page"></div>
-    <div class="foot_slogan">Your joy starts here with Limotours</div>
-    <div class="foot_credit"><a href="credits.html">Credits</a></div>
-</footer>
+
 </html>
