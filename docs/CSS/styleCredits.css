@@ -1,12 +1,21 @@
 .content ul li {
   text-align: center;
+  margin-right: 2rem;
   list-style: none;
 }
 
+.content div ul li a {
+  color: #9ae0a0;
+}
 h3 {
   padding-top: 2rem;
 }
 
 p {
   text-align: center;
+}
+
+.respo {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }

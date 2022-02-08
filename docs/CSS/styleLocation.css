@@ -9,3 +9,7 @@ p {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+main p a {
+  color: #7dbbd6;
+}

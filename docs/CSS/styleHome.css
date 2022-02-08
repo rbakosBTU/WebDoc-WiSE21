@@ -15,16 +15,17 @@ h2 {
 }
 .content {
   display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 #image1,
 #image2,
 #image3 {
-  display: inline-block;
+  width: 90%;
+  height: 90%;
   overflow: hidden;
-  width: 480px;
-  height: 320px;
-  margin: 10px;
+  flex-grow: 1;
 }
 
 #des1,
@@ -36,7 +37,14 @@ h2 {
 
 .container iframe {
   display: inline-block;
+  justify-content: center;
   overflow: hidden;
+  border: none;
   width: 97%;
   height: 600px;
+}
+
+#dev_roles {
+  display: flex;
+  justify-content: center;
 }
